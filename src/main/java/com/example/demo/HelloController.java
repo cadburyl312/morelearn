@@ -8,6 +8,7 @@ public class HelloController {
 
     @GetMapping("/api/hello")
     public String hello() {
-        return "Hello from Spring Boot!";
+        System.out.println("asdasd");
+        return "{\"name\":\"John\", \"age\":30}";
     }
 }
