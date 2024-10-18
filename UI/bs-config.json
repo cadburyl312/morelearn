@@ -1,0 +1,8 @@
+{
+    "server": {
+        "baseDir": "./",
+        "routes": {
+            "/api": "http://localhost:8080/api"
+        }
+    }
+}
